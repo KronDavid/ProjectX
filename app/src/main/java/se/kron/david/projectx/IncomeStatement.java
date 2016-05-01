@@ -21,4 +21,51 @@ public class IncomeStatement{
         this.year = year;
     }
 
+    public void setRevenue(double r){
+        this.revenue = r;
+    }
+
+    public void setCost_financial(double cf){
+        this.cost_financial = cf;
+    }
+
+    public void setCost_operational(double co){
+        this.cost_operational = co;
+    }
+
+    public void setTax(double t){
+        this.tax = t;
+    }
+
+    public void setProfit(double p){
+        this.profit = p;
+    }
+
+    public double getRevenue(){
+        return this.revenue;
+    }
+
+    public double getCost_financial(){
+        return this.cost_financial;
+    }
+
+    public double getCost_operational(){
+        return this.cost_operational;
+    }
+
+    public double getTax(){
+        return this.tax;
+    }
+
+    public double getProfit(){
+        return this.profit;
+    }
+
+    public String getCompany(){
+        return this.company;
+    }
+
+    public int getYear(){
+        return this.year;
+    }
 }

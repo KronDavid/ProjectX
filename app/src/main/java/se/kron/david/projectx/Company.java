@@ -8,7 +8,7 @@ public class Company {
     private String stock_ticker;
     private String name;
     private String headquarter;
-    private String stock_market;
+    private String marketplace;
     private String industry;
     private int employees;
 
