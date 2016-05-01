@@ -5,4 +5,5 @@ package se.kron.david.projectx;
  */
 public class Company {
     public String name;
+    public String Exchange;
 }
